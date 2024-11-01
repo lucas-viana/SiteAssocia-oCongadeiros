@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Estilos globais */
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px;
+    background-color: red;
+}
+.navbar p{
+    margin-left: 42%;
+    font-size: 25px;
+}
+.navbar-brand {
+    color: yellow !important;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+
+/* Cabeçalho */
+h1 {
+    color: red;
+}
+
+h2 {
+    color: black;
+}
+
+/* Seções */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+/* Tabelas */
+.table {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.table th {
+    background-color: red;
+    color: white;
+}
+
+.table td {
+    border: 1px solid black;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: red;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo das listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: yellow;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

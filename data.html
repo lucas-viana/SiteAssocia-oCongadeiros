@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="car" id="car">
+      <option dir="ltr" data-brand="VW" value="1">Gol</option>
+      <option dir="ltr" data-brand="Fiat" value="2">Palio</option>
+      <option dir="rtl" data-brand="Ford" value="3">Fiesta</option>
+      <option dir="auto" data-brand="Cherry" value="4">QQ</option>
+      <option data-brand="GM" value="5">Monza</option>
+    </select>
+
+    <script>
+      document.querySelectorAll("option").forEach((opt) => {
+        const marca = opt.dataset.brand;
+        const modelo = opt.innerHTML;
+        const valor = opt.value;
+
+        console.log(`Modelo: ${modelo} - Marca ${marca}`);
+        // console.log('Modelo: ${modelo} Marca ${marca} ${valor}');
+      });
+    </script>
+  </body>
+</html>
